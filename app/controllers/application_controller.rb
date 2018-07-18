@@ -7,5 +7,9 @@ class App < Sinatra::Base
     get '/' do
       erb :super_hero
     end
-    
+
+    pots '/teams' do
+      
+    end
+
 end
