@@ -15,7 +15,7 @@ class App < Sinatra::Base
         Superhero.new(details)
       end
 
-      @superheros = Superhero.all
+      @superheroes = Superhero.all
 
       erb :team
     end
