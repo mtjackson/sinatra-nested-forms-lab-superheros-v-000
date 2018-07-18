@@ -9,7 +9,7 @@ class App < Sinatra::Base
     end
 
     pots '/teams' do
-      
+      @team = Team.new
     end
 
 end
