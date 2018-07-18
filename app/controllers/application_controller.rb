@@ -9,7 +9,7 @@ class App < Sinatra::Base
     end
 
     pots '/teams' do
-      @team = Team.new
+      @team = Team.new(params[:team])
     end
 
 end
